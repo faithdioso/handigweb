@@ -1,0 +1,483 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #85785e;
+    color: #ffe5e5;
+}
+
+body.dark-mode .bg-white {
+    background-color: #121212;
+}
+
+body.dark-mode .bg-black {
+    background-color: #ffffff;
+}
+
+body.dark-mode nav {
+    background-color: #c8a9a9; /* Dark background for the header */
+}
+
+body.dark-mode nav a {
+    color: #ffffff; /* Light text color for the navigation links */
+}
+
+body.dark-mode nav a:hover {
+    background-color: #333333; /* Slightly lighter background on hover */
+    color: #ffffff; /* Ensure text color remains light on hover */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p,
+body.dark-mode .footer,
+body.dark-mode .social-icons li a,
+body.dark-mode .small-text,
+body.dark-mode .resume-title,
+body.dark-mode .resume-btn,
+body.dark-mode .resume-btn:hover,
+body.dark-mode .custom-btn {
+    color: #ffffff;
+}
+
+body.dark-mode .resume-btn:hover {
+    background-color: #fffefe;
+    color: #333;
+}
+
+/* Existing Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f4;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.mode-toggle {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#dark-mode-btn {
+    text-size-adjust: 100txt;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #504949;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#dark-mode-btn:hover {
+    background-color: #ceb8b8;
+}
+
+.logo {
+    position: fixed;
+    left: 40px;
+    top: 10px;
+}
+
+.logo-img {
+    width: 250px;
+    height: auto;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: #f3eee1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: rgb(157, 108, 108);
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    background-color: #ffd5f077;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.banner {
+    background-image: url('your-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 17px;
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons li a:hover {
+    color: #fcdbbb;
+}
+
+.small-text {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 20px;
+    color: #83766b;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner img {
+    width: 70%;
+    height: auto;
+    border-radius: 2%;
+    border: 50px solid #fff;
+    box-shadow: 0 0 5px rgba(186, 130, 130, 0.5);
+}
+
+.image-container {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 50px;
+    width: 500px;
+}
+
+.text-container {
+    margin-top: 95px;
+    margin-bottom: 50px;
+    float: left;
+    width: 50%;
+}
+
+.about-image {
+    margin-bottom: 150px;
+    float: left;
+    width: 50%;
+}
+
+.resume-img {
+    max-width: 100%;
+}
+
+.resume-img {
+    margin-top: 150px;
+    width: 400px;
+    border-radius: 2%;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.resume-title {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.resume-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #fffefe;
+    color: #333;
+}
+
+.custom-btn {
+    font-size: 20px;
+    background-color: #e4cbcb;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.dropdown-menu {
+    min-width: auto;
+    display: none; /* Hide dropdown menus by default */
+}
+
+.show-menu .dropdown-menu {
+    display: block; /* Show dropdown menu when the parent has 'show-menu' class */
+    background-color: #fdd0d0;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item img {
+    box-shadow: #83766b;
+    width: 200px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-btn {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .custom-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover::before {
+    left: 100%;
+  }
+  
+  .custom-btn:hover {
+    background-color: #5a6268;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .image-container {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-container.show {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.dropdown-item {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.dropdown-item:active {
+    animation: clickAnimation 0.2s;
+}
+
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.image-container {
+    display: none;
+}
+
+.image-container.show {
+    display: block;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+@media (max-width: 1127px) {}
+/* Add this CSS at the end of your existing styles */
+
+/* Adjustments for smaller screens */
+@media (max-width: 1127px) {
+    .logo {
+        left: 10px;
+        top: 5px;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+
+    nav a {
+        padding: 20px 10px;
+        margin-right: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        border: none;
+    }
+
+    .image-container img {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .text-container,
+    .about-image {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .resume-img {
+        margin-top: 50px;
+        width: 300px;
+        border-width: 5px;
+    }
+
+    .custom-btn {
+        padding: 15px 25px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Adjustments for even smaller screens */
+@media (max-width: 576px) {
+    .logo-img {
+        width: 200px;
+    }
+
+    nav a {
+        padding: 15px 8px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 16px;
+        text-indent: 10px;
+    }
+
+    .resume-img {
+        width: 250px;
+    }
+
+    .custom-btn {
+        font-size: 14px;
+    }
+}
+
